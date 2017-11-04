@@ -6,7 +6,7 @@ header{
  background-repeat: no-repeat;
  background-position: center;
  overflow:hidden;
- opacity: 0.5;
+ opacity: 0.2;
 }
 
 
@@ -22,7 +22,7 @@ h1 {
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  background-color: white ;
+  background-color: white;
 }
 
 col-md-3 {
