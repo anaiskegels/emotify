@@ -25,10 +25,10 @@ body {
   background-color: white;
 }
 
-col-md-3 {
+div.col-md-3 {
   background-color: white;
 }
 
-feelingheaders {
+div.feelingheaders {
   text-align: center;
 }
