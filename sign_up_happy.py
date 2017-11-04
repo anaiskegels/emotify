@@ -19,7 +19,7 @@ def send_email(email_to_send_to):
         auth=("api", "key-cf11104f1ced99b7257fb8c41e5af8ca"),
         data={"from": "Mailgun Sandbox <postmaster@sandbox9bb315e881744729a13adf99f9ebee46.mailgun.org>",
               "to": "Anais Kegels <anais@touchsurgery.com>",
-              "subject": "Hello Anais Kegels",
+              "subject": "Your mood song picked by Emotify",
               "text": "Hey there! Here is your handpicked song to suit your mood: "})
     return render_template ("sign_up_happy.html")
 
