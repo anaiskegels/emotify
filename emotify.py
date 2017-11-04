@@ -6,6 +6,7 @@ def hello():
     return "Emotify: Listen to your Emotions"
 
 @app.route("/<emotion>")
+def hello_someone(emotion):
     return render_template ("emotify.html", name = emotion.title() )
 
 @app.route("/signup", methods=["POST"])
