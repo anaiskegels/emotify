@@ -2,11 +2,11 @@ from flask import Flask, render_template, request
 import requests
 app = Flask("emotify")
 
-@app.route("/signup")
+@app.route("/")
 def email_signup():
     return render_template("sign_up_happy.html")
 
-@app.route("/signup", methods=["POST"])
+@app.route("/", methods=["POST"])
 def sign_up():
     form_data = request.form
     email = form_data["email"]
