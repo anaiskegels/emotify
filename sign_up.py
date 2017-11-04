@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import requests
 app = Flask("emotify")
 
 @app.route("/signup")
@@ -10,7 +11,7 @@ def sign_up():
     form_data = request.form
     email = form_data["email"]
     response = send_email(email)
-    return "Get your mood song from Emotfy!"
+    return "Go check your email inbox!"
 
 def send_email(email_to_send_to):
     requests.post(
