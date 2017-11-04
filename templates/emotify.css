@@ -23,3 +23,11 @@ body {
   font-size: 25px;
   background-color: #f0acb7 ;
 }
+
+div.col-md-4{
+  background-color: white;
+}
+
+div.feelingheaders{
+  text-align: center;
+}
